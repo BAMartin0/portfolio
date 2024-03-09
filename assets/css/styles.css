@@ -1,4 +1,9 @@
-header {
+header h1 {
     font-size:36px;
-    color: aqua;
+    color: white;
 }  
+
+header{
+    background-color: rgb(255, 232, 255);
+    
+}
