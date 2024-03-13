@@ -162,3 +162,46 @@ section >div {
     background-image: url(../images/horiseon.png)
     
 }
+
+@media screen and (max-width: 768px) {
+    main section {
+        flex-direction: column;
+    }
+    main section .one {
+        padding-top: 140px;
+    }
+    main section h2 {
+        border-right: 0;
+        border-bottom: 3px solid var(--primary-dark);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    main section {
+        flex-direction: column;
+    }
+
+    main section .one {
+        padding-top: 140px;
+    }
+
+    main section h2 {
+        font-size:30px ;
+        border-right: 0;
+        border-bottom: 3px solid var(--primary-dark);
+    }
+    
+    main section div {
+        font-size: 13px;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    ul li {
+        font-size: 15px;
+    }
+
+    .workbest  a {
+        font-size: 10px;
+    }
+}
